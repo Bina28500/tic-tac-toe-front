@@ -1,0 +1,13 @@
+.exit__container {
+    display: flex;
+
+}
+
+.exit__container .btn {
+    width: 200px;
+    
+}
+
+.exit__reset {
+    cursor: pointer;
+}

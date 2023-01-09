@@ -1,0 +1,61 @@
+.table {
+    padding: 0 100px;
+}
+
+.table h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table__container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.gamer {
+    display: flex;
+    width: 200px;
+    font-size: 24px;
+}
+
+.gamer b {
+   text-transform: uppercase;
+}
+
+.gamer_end {
+    justify-content: flex-end;
+}
+
+
+.gamer__row2 {
+    text-align: end;
+}
+
+.gamer__name {
+    margin: 0 15px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    font-size: 30px;
+}
+
+.counter__col {
+    padding-top: 10px;
+}
+
+.link__container {
+    height: 30px;
+}
+
+.link {
+    margin: 0;
+    text-align: end;
+}
+
+.name1 {
+    box-shadow: 3px 3px 3px 3px #f66a6a;
+}

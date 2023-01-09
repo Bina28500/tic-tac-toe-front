@@ -1,0 +1,30 @@
+.startpage__container h2 {
+    text-align: center;
+
+}
+
+.btn {
+    display: block;
+    margin: 40px auto;
+    padding: 0 12px;
+    background-color: rgb(209, 207, 207);
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+    line-height: 35px;
+    border-radius: 3px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.start__button {
+    width: 200px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(158, 157, 157);
+}
+
+.startpage__rules {
+    padding-left: 30px;
+}

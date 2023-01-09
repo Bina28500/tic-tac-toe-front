@@ -1,0 +1,30 @@
+.table__cel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.table__table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 0;
+    padding: 0;
+    width: 210px;
+}
+
+
+.timer__block {
+    height: 40px;
+}
+
+.timer__prev {
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}

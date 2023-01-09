@@ -20,8 +20,12 @@ const MainPage = () => {
     const [word, setWord] = useState();
 
     const { roomName } = useParams();
-
-    socket.emit('join', roomName);
+    useEffect(() => {
+        socket.emit('join', roomName);
+        return () => {
+            socket.off('join');
+        };
+    }, []);
 
     useEffect(() => {
         socket.on('forWhat', (word) => {
